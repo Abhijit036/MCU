@@ -1,0 +1,10 @@
+09:57:04 **** Build of configuration Debug for project ON_BUTTON LED TOGGLE ****
+make -j12 all 
+arm-none-eabi-size   ON_BUTTON\ LED\ TOGGLE.elf 
+   text	   data	    bss	    dec	    hex	filename
+    968	     12	   1572	   2552	    9f8	ON_BUTTON LED TOGGLE.elf
+Finished building: default.size.stdout
+ 
+
+09:57:04 Build Finished. 0 errors, 0 warnings. (took 228ms)
+

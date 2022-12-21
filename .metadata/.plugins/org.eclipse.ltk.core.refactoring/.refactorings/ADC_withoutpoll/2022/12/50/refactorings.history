@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC_withoutpoll/Core/Inc/main.h&apos; to &apos;LCD.h&apos;" description="Rename resource &apos;main.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/main.h" name="LCD.h" stamp="1670651278606" updateReferences="true"/>
+</session>

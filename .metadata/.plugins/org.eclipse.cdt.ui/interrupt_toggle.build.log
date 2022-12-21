@@ -1,0 +1,10 @@
+09:57:05 **** Build of configuration Debug for project interrupt_toggle ****
+make -j12 all 
+arm-none-eabi-size   interrupt_toggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6192	     20	   1572	   7784	   1e68	interrupt_toggle.elf
+Finished building: default.size.stdout
+ 
+
+09:57:05 Build Finished. 0 errors, 0 warnings. (took 217ms)
+

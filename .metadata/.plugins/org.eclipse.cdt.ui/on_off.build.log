@@ -1,0 +1,28 @@
+14:48:58 **** Build of configuration Debug for project on_off ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:59:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   59 |  for(i=0;i<len;i++)
+      |  ^~~
+../Core/Src/main.c:61:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   61 |   return len;
+      |   ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:74:10: warning: unused variable 'Button' [-Wunused-variable]
+   74 |  uint8_t Button;
+      |          ^~~~~~
+../Core/Src/main.c: In function 'MX_GPIO_Init':
+../Core/Src/main.c:183:21: error: 'LED_GPIO_Port' undeclared (first use in this function); did you mean 'led_GPIO_Port'?
+  183 |   HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     led_GPIO_Port
+../Core/Src/main.c:183:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:183:36: error: 'LED_Pin' undeclared (first use in this function)
+  183 |   HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+14:48:59 Build Failed. 3 errors, 2 warnings. (took 903ms)
+

@@ -1,0 +1,10 @@
+11:24:48 **** Incremental Build of configuration Debug for project odr_toggle ****
+make -j12 all 
+arm-none-eabi-size   odr_toggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+    988	     12	   1572	   2572	    a0c	odr_toggle.elf
+Finished building: default.size.stdout
+ 
+
+11:24:48 Build Finished. 0 errors, 0 warnings. (took 230ms)
+

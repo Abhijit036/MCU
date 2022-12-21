@@ -1,0 +1,10 @@
+09:57:08 **** Build of configuration Debug for project stm32f411x ****
+make -j12 all 
+arm-none-eabi-size   stm32f411x.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	stm32f411x.elf
+Finished building: default.size.stdout
+ 
+
+09:57:08 Build Finished. 0 errors, 0 warnings. (took 171ms)
+

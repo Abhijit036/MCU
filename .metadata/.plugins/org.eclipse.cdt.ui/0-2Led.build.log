@@ -1,0 +1,10 @@
+09:56:57 **** Build of configuration Debug for project 0-2Led ****
+make -j12 all 
+arm-none-eabi-size   0-2Led.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5800	     20	   1572	   7392	   1ce0	0-2Led.elf
+Finished building: default.size.stdout
+ 
+
+09:56:57 Build Finished. 0 errors, 0 warnings. (took 276ms)
+

@@ -1,0 +1,10 @@
+17:36:36 **** Incremental Build of configuration Debug for project lcd rx tx ****
+make -j12 all 
+arm-none-eabi-size   lcd\ rx\ tx.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11676	     20	   1636	  13332	   3414	lcd rx tx.elf
+Finished building: default.size.stdout
+ 
+
+17:36:36 Build Finished. 0 errors, 0 warnings. (took 220ms)
+

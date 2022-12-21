@@ -1,0 +1,10 @@
+10:45:45 **** Incremental Build of configuration Debug for project ON_BUTTON LED TOGGLE 2 ****
+make -j12 all 
+arm-none-eabi-size   ON_BUTTON\ LED\ TOGGLE\ 2.elf 
+   text	   data	    bss	    dec	    hex	filename
+    944	     12	   1572	   2528	    9e0	ON_BUTTON LED TOGGLE 2.elf
+Finished building: default.size.stdout
+ 
+
+10:45:46 Build Finished. 0 errors, 0 warnings. (took 216ms)
+

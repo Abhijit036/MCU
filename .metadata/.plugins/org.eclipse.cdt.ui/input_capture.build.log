@@ -1,0 +1,10 @@
+10:27:41 **** Build of configuration Debug for project input_capture ****
+make -j12 all 
+arm-none-eabi-size   input_capture.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8856	     20	   1652	  10528	   2920	input_capture.elf
+Finished building: default.size.stdout
+ 
+
+10:27:42 Build Finished. 0 errors, 0 warnings. (took 214ms)
+

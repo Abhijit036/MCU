@@ -1,0 +1,10 @@
+14:59:39 **** Incremental Build of configuration Debug for project Gpio_Expansion ****
+make -j12 all 
+arm-none-eabi-size   Gpio_Expansion.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7964	    120	   1592	   9676	   25cc	Gpio_Expansion.elf
+Finished building: default.size.stdout
+ 
+
+14:59:39 Build Finished. 0 errors, 0 warnings. (took 190ms)
+

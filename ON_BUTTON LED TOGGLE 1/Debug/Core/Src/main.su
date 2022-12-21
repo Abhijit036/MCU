@@ -1,0 +1,5 @@
+../Core/Src/main.c:2:6:delay	24	static
+../Core/Src/main.c:7:6:motor_init	4	static
+../Core/Src/main.c:12:6:sw_init	4	static
+../Core/Src/main.c:17:6:operation	8	static
+../Core/Src/main.c:33:7:main	8	static
